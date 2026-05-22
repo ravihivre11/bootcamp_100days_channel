@@ -15,4 +15,4 @@ print(random.sample(list, k=2))  #k is the no. of items u have to display but it
 
 
 
-print(random.shuffle())
+print(random.shuffle(list))

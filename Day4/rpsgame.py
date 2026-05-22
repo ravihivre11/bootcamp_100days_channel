@@ -54,10 +54,10 @@ elif choice == 1:
         print("You win!")
     elif bot[bot_choice] == "paper":
         print(paper)
-        print("You lose!")
+        print("Its a draw!")
     elif bot[bot_choice] == "scissors":
         print(scissors)
-        print("It's a draw!")
+        print("You lose!")
     else:
         print("Invalid input! You lose!")
 
@@ -78,6 +78,11 @@ elif choice == 2:
         print("It's a draw!")
     else:
         print("Invalid input! You lose!")
+
+else:
+    print("Invalid input! You lose!")
+
+print("Thanks for playing!")
 
 
 

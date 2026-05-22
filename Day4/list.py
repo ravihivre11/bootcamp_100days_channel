@@ -8,6 +8,6 @@ car = ["BMW", "Mercedes", "Audi", "Toyota", "Honda" , "Ford", "Chevrolet", "Niss
 print(random.choices(car))
 
 #2
-ran = random.randint(0,10)
+ran = random.randint(0,9)
 print(car[ran])
 

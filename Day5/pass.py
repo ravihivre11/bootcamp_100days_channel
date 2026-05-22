@@ -30,7 +30,7 @@ for i in range(1,spec+1):
     passw.append(random.choice(special_chars))
 
 random.shuffle(passw)
-print("Your password is: " , "".join(passw))
+print(f"Your password is: {''.join(passw)}")
 
 
 
